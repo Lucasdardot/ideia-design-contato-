@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 14px;
+}
+body{
+    height: 100vh;
+    background-image: url('./img/fundo.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+main{
+    max-width: 540px;
+   
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    color: white;
+    padding: 20px;
+}
+
+.image-profile{
+    width: 120px;
+    border-radius: 50%;
+}
+.gradient{
+    background: rgb(93,177,108);
+    background: linear-gradient(90deg, rgba(93,177,108,1) 0%, rgba(106,141,208,1) 100%);
+}
+
+.user-name{
+    font-weight: 700;
+    font-size: 2em;
+    margin: 16px 0;
+}
+
+.description{
+    margin: 0 0 16px 0;
+    color: rgb(156, 156, 156);
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover{
+    background: linear-gradient(90deg, rgb(33, 67, 39) 0%, rgb(43, 63, 99) 100%);
+    border-radius:25px ;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+li{
+    border-radius: 25px;
+    height: 4em;
+    display: flex;
+}
+
+ul li a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    padding: 0 45px;
+}
+
+a>img{
+    width: 27px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+}
+
+.contact{
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content:center;
+    padding: 1em;
+    border-radius: 50px;
+}
+
+.contact:hover{
+    background: linear-gradient(90deg, rgb(33, 67, 39) 0%, rgb(43, 63, 99) 100%);
+    color: white;
+    border-radius: 50px;
+}
